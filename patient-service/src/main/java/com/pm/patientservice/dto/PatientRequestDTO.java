@@ -19,7 +19,7 @@ public class PatientRequestDTO {
     private String address;
 
     @NotBlank(message = "Date of Birth is required")
-    private String dateOfBrith;
+    private String dateOfBirth;
 
     @NotBlank(groups = CreatePatientValidationGroup.class,
             message = "Registered date is required")
@@ -49,12 +49,12 @@ public class PatientRequestDTO {
         this.address = address;
     }
 
-    public String getDateOfBrith() {
-        return dateOfBrith;
+    public String getDateOfBirth() {
+        return dateOfBirth;
     }
 
-    public void setDateOfBrith(String dateOfBrith) {
-        this.dateOfBrith = dateOfBrith;
+    public void setDateOfBirth(String dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
     }
 
     public String getRegisteredDate() {
