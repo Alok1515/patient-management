@@ -8,4 +8,6 @@ Content-Type: application/json
 
 }
 
+> {% client.global.set("token", response.body.token) %}
+
 ###
